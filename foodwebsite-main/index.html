@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="pingback" href="https://mealawe.com/">
-    
+
 
     <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script>
     <script type="text/javascript" async=""
@@ -23,22 +23,20 @@
     <script type="text/javascript">
         document.documentElement.className = 'js';
     </script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-        <script type="text/javascript">
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        
-            document.documentElement.className = 'js';
-        </script>
-    
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script type="text/javascript">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        document.documentElement.className = 'js';
+    </script>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <style id="et-builder-googlefonts-cached-inline">
@@ -519,8 +517,7 @@
 
     <link rel="dns-prefetch" href="//fonts.googleapis.com">
     <link rel="alternate" type="application/rss+xml" title="mealawe » Feed" href="https://feed/">
-    <link rel="alternate" type="application/rss+xml" title="mealawe » Comments Feed"
-        href="https://comments/feed/">
+    <link rel="alternate" type="application/rss+xml" title="mealawe » Comments Feed" href="https://comments/feed/">
     <meta content="Divi Child v.1.0.0" name="generator">
     <style id="wp-block-library-theme-inline-css" type="text/css">
         .wp-block-audio :where(figcaption) {
@@ -711,12 +708,15 @@
         }
     </style>
     <style id="global-styles-inline-css" type="text/css">
-            /* tiffin bottom section */
-        #faq{
-            width: 900px;
-             margin-left: 80px;
-             box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.5)
-
+        /* tiffin bottom section */
+        #faq {
+            width: 90%;
+            /* Use percentage for better responsiveness */
+            max-width: 900px;
+            /* Set a max width */
+            margin: 0 auto;
+            /* Center the FAQ section */
+            box-shadow: 10px 5px 10px 10px rgba(0, 0, 0, 0.5);
         }
 
         .answer {
@@ -728,9 +728,58 @@
         .answer.open {
             max-height: 12200px;
             /* Adjust as necessary */
+        }
 
-       
-        }   
+        /* Media Queries for Responsiveness */
+        @media (max-width: 768px) {
+            #faq {
+                width: 95%;
+                /* Make it wider on smaller screens */
+                margin-left: 0;
+                /* Remove left margin */
+            }
+
+            .flex {
+                flex-direction: column;
+                /* Stack items vertically */
+                align-items: center;
+                /* Center items */
+            }
+
+            h1 {
+                font-size: 1.5rem;
+                /* Adjust heading size */
+                text-align: center;
+                /* Center align heading */
+            }
+
+            .answer {
+                padding-left: 1rem;
+                /* Add padding for smaller screens */
+                padding-right: 1rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.25rem;
+                /* Further reduce heading size */
+            }
+
+            .answer {
+                padding-left: 0.5rem;
+                /* Adjust padding */
+                padding-right: 0.5rem;
+            }
+
+            .flex {
+                padding: 0 1rem;
+                /* Add some padding to the flex container */
+            }
+        }
+
+
+
         :root {
             --wp--preset--aspect-ratio--square: 1;
             --wp--preset--aspect-ratio--4-3: 4/3;
@@ -9088,7 +9137,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
         !function (f, b, e, v, n, t, s) {
             if (f.fbq) return; n = f.fbq = function () {
                 n.callMethod ?
-                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
             }; if (!f._fbq) f._fbq = n;
             n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
             t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
@@ -9138,7 +9187,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 `);
             }
         });
-        /**** Brought to you enterly free by the WPress Doctor on YouTube! Enjoy! 
+        /**** Brought to you enterly free by the WPress Doctor on YouTube! Enjoy!
          * Please like the video about Monarch: 
          * Have a awesome day and I see you in the next video! *****/</script>
     <style class="wp-fonts-local" type="text/css">
@@ -10379,12 +10428,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         <li id="menu-item-14284389"
                                                             class="et_pb_menu_page_id-14284389 menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-14284389">
                                                             <a href="#">Services</a>
-                                                            <div class="dropdown__arrow"></div> 
+                                                            <div class="dropdown__arrow"></div>
                                                             <ul class="sub-menu">
                                                                 <li id="menu-item-14284390"
                                                                     class="et_pb_menu_page_id-14284071 menu-item menu-item-type-post_type menu-item-object-page menu-item-14284390">
                                                                     <a
-                                                                        href="https://mealawe.com/tiffin-service-in-pune/">In Jaipur</a>
+                                                                        href="https://mealawe.com/tiffin-service-in-pune/">In
+                                                                        Jaipur</a>
                                                                 </li>
                                                                 <!-- <li id="menu-item-14284406"
                                                                     class="et_pb_menu_page_id-14284391 menu-item menu-item-type-post_type menu-item-object-page menu-item-14284406">
@@ -11777,15 +11827,18 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 
                                     </div> -->
+                                        <!-- start of bottom question section -->
                                         <div
                                             class="et_pb_section et_pb_section_5 et_pb_with_background et_section_regular">
-                                            <div class="flex flex-col items-center justify-center min-h-screen " style="min-height: 90vh; width: 100%;">
+                                            <div class="flex flex-col items-center justify-center min-h-screen "
+                                                style="min-height: 90vh; width: 100%;">
                                                 <h1 class="text-xl font-semibold mb-4">Still
                                                     confused about signing up? Check out these
                                                     questions to clarify your doubts!</h1>
                                                 <div class="bg-white shadow-md rounded-lg w-3/4" id="faq">
                                                     <div class="border-b">
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer1')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer1')">
                                                             <i class="fas fa-star mr-2"></i>
                                                             <span class="font-semibold">How can
                                                                 I customize my meals?</span>
@@ -11803,9 +11856,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         </div>
                                                     </div>
                                                     <div class="border-b">
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer2')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer2')">
                                                             <i class="fas fa-rupee-sign mr-2"></i>
-                                                            <span class="font-semibold">How is Homestylefoods going to charge
+                                                            <span class="font-semibold">How is Homestylefoods going to
+                                                                charge
                                                                 me?</span>
                                                         </div>
                                                         <div id="answer2" class="answer px-4 pb-1">
@@ -11821,7 +11876,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         </div>
                                                     </div>
                                                     <div class="border-b">
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer3')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer3')">
                                                             <i class="fas fa-fire mr-2"></i>
                                                             <span class="font-semibold">How does
                                                                 Homestylefoods ensure
@@ -11842,7 +11898,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         </div>
                                                     </div>
                                                     <div class="border-b">
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer4')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer4')">
                                                             <i class="fas fa-calendar-alt mr-2"></i>
                                                             <span class="font-semibold">When can
                                                                 I schedule my meals?</span>
@@ -11860,7 +11917,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         </div>
                                                     </div>
                                                     <div class="border-b">
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer5')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer5')">
                                                             <i class="fas fa-calendar-times mr-2"></i>
                                                             <span class="font-semibold">Can I
                                                                 cancel/change my scheduled
@@ -11877,7 +11935,8 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                         </div>
                                                     </div>
                                                     <div>
-                                                        <div class="flex items-center p-4 cursor-pointer" onclick="toggleAnswer('answer6')">
+                                                        <div class="flex items-center p-4 cursor-pointer"
+                                                            onclick="toggleAnswer('answer6')">
                                                             <i class="fas fa-home mr-2"></i>
                                                             <span class="font-semibold">I am a
                                                                 kitchen owner. What is there for
@@ -11893,16 +11952,17 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
                                                 </div>
                                                 <div class="mt-8">
                                                     <p>Still confused? Or have feedback? Write
-                                                        to us at <a href="mailto:feedback.homestylefood@gmail.com" class="text-blue-500">feedback.homestylefood@gmail.com</a>
+                                                        to us at <a href="mailto:feedback.homestylefood@gmail.com"
+                                                            class="text-blue-500">feedback.homestylefood@gmail.com</a>
                                                     </p>
                                                 </div>
                                             </div>
+                                            <!-- end of bottom question section -->
 
 
 
 
-
-                                           <!-- <div class="et_pb_row et_pb_row_12">
+                                            <!-- <div class="et_pb_row et_pb_row_12">
                                                 <div class="et_pb_column et_pb_column_4_4 et_pb_column_23  et_pb_css_mix_blend_mode_passthrough et-last-child"
                                                     style="height: 1310px;">
 
